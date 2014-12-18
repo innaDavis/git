@@ -1,0 +1,34 @@
+{
+    "name": "reliv/git",
+    "description": "A git client using Git smart protocols",
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "reliv",
+        "git"
+    ],
+    "homepage": "http://www.reliv.com/",
+    "authors": [
+        {
+            "name": "Westin Shafer",
+            "email": "wshafer@relivinc.com",
+            "homepage": "http://www.reliv.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "guzzlehttp/guzzle": "~5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.4",
+        "squizlabs/php_codesniffer": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Reliv\\Git\\": "src/"
+        },
+        "classmap": [
+            "./"
+        ]
+    }
+}
